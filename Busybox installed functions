@@ -1,0 +1,31 @@
+
+Usage: busybox [function [arguments]...]
+   or: busybox --list[-full]
+   or: busybox --install [-s] [DIR]
+   or: function [arguments]...
+
+        BusyBox is a multi-call binary that combines many common Unix
+        utilities into a single executable.  Most people will create a
+        link to busybox for each function they wish to use and BusyBox
+        will act like whatever it was invoked as.
+
+Currently defined functions:
+        [, [[, arp, arping, ash, awk, basename, bash, blkid, blockdev, cat,
+        chgrp, chmod, chown, chroot, cksum, clear, cmp, cp, cut, date, dc, dd,
+        devmem, df, dhcprelay, diff, dirname, dmesg, dnsdomainname, dos2unix,
+        du, dumpleases, echo, egrep, env, expand, expr, false, fgrep, find,
+        flash_eraseall, flash_lock, flash_unlock, flashcp, free, fsck, ftpget,
+        ftpput, getopt, getty, grep, groups, halt, hd, hdparm, head, hexdump,
+        hostid, hostname, hush, id, ifconfig, init, insmod, iostat, ip, ipaddr,
+        ipcs, iplink, iproute, iprule, iptunnel, kill, killall, killall5, last,
+        less, linuxrc, ln, login, logname, ls, lsmod, lsof, lsusb, lzcat, lzma,
+        makedevs, md5sum, mdev, mkdir, mkdosfs, mke2fs, mkfifo, mkfs.ext2,
+        mkfs.minix, mkfs.reiser, mkfs.vfat, mknod, modinfo, more, mount, mv,
+        nameif, nanddump, nandwrite, netstat, nice, nslookup, od, patch, pidof,
+        ping, poweroff, printenv, printf, ps, pstree, pwd, readlink, reboot,
+        reset, rev, rm, rmdir, rmmod, route, runlevel, sed, seq, setfont,
+        setserial, sh, sleep, smemcap, sort, split, start-stop-daemon, stat,
+        strings, stty, sync, sysctl, tail, tee, telnetd, test, time, timeout,
+        top, touch, tr, true, tty, udhcpc, udhcpc6, udhcpd, udpsend, umount,
+        uname, uniq, unix2dos, unlzma, uptime, users, usleep, wall, wc, wget,
+        which, who, whoami, xargs, yes
